@@ -1,37 +1,353 @@
 body{
-    background-color:whitesmoke;
-    font-size: x-small;
-    font-weight: 0;
-    }
-    a{
-       border: 0.5px solid;
-       margin: 10px;
-    }
- span{
-     color: red;
- }   
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    max-width: fit-content;
+}
 
-img{
-    height: 150px;
-    width: 200px;
 
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  
+  
+  .navbar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color:white;
+    color: #EC4067;
+  }
+
+  .topbutton {
+    background-color:#EC4067;
+    color: white;
+    width: 110px;
+    height:32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
-.image1{
-    padding-left: 200px;
+
+.topbutton:hover{
+    background-color: white;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+    cursor: pointer;
+  }
+  
+.span1{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 30px;
+    font-weight: bold;   
+    color: #EC4067;
+    font-size: xx-large;
 }
-.image2{
-    float: left;
+.span2{
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
 }
-h1{
-    color: red;
+
+  .leftsection{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-top: 5px;
+  }
+   .img1{
+     
+       margin-left: 450px;
+       display: block;
+       margin-top: -440px;
+       height: 800px;
+   }
+
+   p{
+       display: block;
+       line-height: 1.9;
+    
+    }
+    
+    .left{
+        padding-left:100px;
+        margin-top: 90px;
+
+    }
+
+    .rigtimg{
+        height: 420px;
+        display: block;
+        margin-top: 180px;
+        padding-left: 50px;
+    }
+
+    .img2{
+        margin-top: -300px;
+    }
+
+     .storytime{
+        padding-left:170px;
+        margin-top: -400px;  
+        display: flex;      
+     }
+     .strbrgnd{
+        padding-left: 10px;
+        background-color: rgb(236, 232, 232);
+        width: 50px;
+        height: 30px;
+
+     }
+     .forcing{
+         font-size: smaller;
+         padding-left: 49px;
+         padding-top: 22px;
+     }
+    
+   .button1 {
+    background-color: white; 
+    color: #EC4067; 
+    border: 1px solid #EC4067;
+    width: 110px;
+    height:32px;
+    border-radius: 1px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+  }
+  .button1:hover{
+    background-color: #EC4067;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+
+
+  }
+
+  .button2 {
+      background-color:#EC4067;
+      color: white;
+      width: 110px;
+      height:32px;
+      margin-right: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+  }
+  .button2:hover{
+    background-color: white;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+  }
+  .button3 {
+    background-color:#EC4067;
+    color: white;
+    width: 110px;
+    height:32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.enroll{
-    position: relative;
+
+.button3:hover{
+    background-color: white;
+    width: 112px;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+  }
+
+  .leftpicone{
+      height: 420px;
+      display: block;
+      margin-top: 400px;
+      padding-left: 180px;
+  }
+
+  .orientation{
+      padding-left: 215px;
+      margin-top: -45px;
+      color: white;
+  }
+  #one{
+     margin-left: -145px;
+     color: white;
+     font-size: larger;
+  }
+.three{
+    margin-left: -150px;
+    color: white;
+    font-size: larger;
 }
-.div1{
-    padding-right: 200px;
+  .righttext{
+      margin-left: 900px;
+      margin-top: -350px;
+  }
+  .lefttexttwo{
+      padding-top: 550px;
+      padding-left: 250px;
+  }
+  .rightpictwo{
+    display: block;
+    margin-top: -250px;
+    padding-left: 800px;
+    }
+
+    .meeting{
+        padding-left: 1200px;
+        margin-top: -45px;
+        color: white;
+    }
+  .leftpictwo{
+    padding-left: 179px!important;
+    padding-top: 40px;
+    }
+    .graduation{
+        padding-left: 210px;
+        margin-top: -42px;
+        color: white;
+    }
+.tmspan{
+   font-size: x-large;
+   display: flex;
+   
 }
-.div2{
-    clear: right;
-    margin-right: 5px;
+.backgrnd{
+    padding-left: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(236, 232, 232);
+    width: 0px;
+    height: 30px;
 }
+.skillspan{
+    padding-left: 25px;
+    padding-top: -10px!important;
+    font-size: smaller;
+}
+
+.righttext3{
+        margin-left: 900px;
+        margin-top: -350px;
+}
+.tminfo{
+        font-size: x-large!important;
+        padding-top: 200px;
+        padding-bottom: 9px;   
+}
+.forcing2{
+        font-size: smaller;
+         padding-left: 29px;
+         padding-top: 2px;
+    }
+    
+    .mentors{
+        padding-top: 190px;
+        padding-left: 150px;
+        display: flex;
+
+    }
+    .TMSPICS{
+        /*display: flex;*/
+        padding-top: 30px;
+        padding-right: 60px;
+        margin-left: 150px;
+     }
+
+     .tmnames{
+         display: inline-flex;
+         padding-left: 200px;
+         margin-bottom: -100px;
+     }
+
+     .tmwork{
+         color: #EC4067;
+         font-size: larger;
+         display: inline-flex;
+         padding-top: 05px;
+         margin-left: 160px;
+        }
+        .names{
+            margin-top: -50px;
+            margin-left: -30px;
+            color: white;
+        }
+     .tmextrainfo{
+        font-size:x-small;
+        display: inline-flex;
+        text-align: center;
+        word-spacing: 05px;
+        padding-bottom: 5px;
+        margin-left: 148px;
+        margin-right: -10px;
+
+     }
+     .quizbtn{
+      background-color:#EC4067;
+      color: white;
+      width: 110px;
+      height:32px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding-bottom: 5px;
+      margin-left: 190px;
+      margin-right: 17px;
+     }
+
+     .quizbtn:hover{
+        background-color: white;
+        color: #EC4067;
+        border: 1px solid #EC4067;
+      }
+     .leftsection3{
+        padding-left: 120px;
+        padding-top: 100px;
+        }
+
+     .rightsection3{
+       display: block;
+       margin-top: -290px;
+       padding-left: 610px;
+     }
+
+    /*.project{
+       
+    }*/
+     .surerity{
+        padding-left: 120px;
+        padding-top: 10px;
+        
+     }
+     .footer{
+         background-color: beige;
+         width: 45%;
+         height: 100px;
+         padding-right: 600px;
+         overflow: hidden;
+         
+     }
+     .contact{
+        text-decoration: none;
+        color: #EC4067;
+     }
+     .contact:hover{
+        color: #EC4067;
+        text-decoration: none;
+     }
+     .designers{
+        padding-left: 463px;
+        text-align: center;
+        display: inline;
+
+     }
